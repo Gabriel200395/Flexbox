@@ -1,0 +1,123 @@
+
+/*NAV*/
+.cabecalhoPrincipal .container{ 
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;  /*ele vai verifcar o espaco entre os elementos*/
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+}  
+
+/* FOOTER*/
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex; 
+    justify-content: space-between;
+}  
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    justify-content: space-around; /*envoltar dos elementos*/
+    align-items: center; 
+    width: 70%;
+    margin-left: 5%; 
+} 
+
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
+} 
+
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+} 
+
+/* MAP CURSOS*/
+
+.rodapePrincipal-navMap-list{
+    display: flex; 
+    height: 250px;  
+    flex-flow: column wrap;
+
+    /*
+    flex-wrap: wrap; /*caso nao der no meu elemento pai passar
+    flex-direction: column; /*eu quero que pegar cada elemento e colocar um de baixo do outro.
+     */
+}   
+
+
+
+/*cursos*/
+
+.conteudoPrincipal-cursos{
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+
+.conteudoPrincipal-cursos-link{
+    width: 20%;
+} 
+
+/*
+
+basicamente para alinhamento
+.conteudoPrincipal-cursos-link:nth-child(4n){
+  margin-right:0;
+} 
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
+    margin-left:0;
+  }  
+
+*/
+  /*parte mobile*/ 
+@media(max-width:768px){
+
+    .cabecalhoPrincipal-nav{
+        flex-direction: column;
+    }  
+    
+    .cabecalhoPrincipal .container{ 
+       flex-direction: column; /*quebra para proximar linha*/
+       align-items: initial;
+       text-align: center;
+     } 
+    
+     /*cursos quebrar um do ladodo outro */
+     .conteudoPrincipal-cursos{
+        flex-direction: column;
+     }
+    
+     .conteudoPrincipal-cursos-link{
+        width: 100%;
+      } 
+     .rodapePrincipal-navMap-list{
+         height: auto;
+     }  
+    
+     .rodapePrincipal-patrocinadores .container{
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+     }
+    
+     .rodapePrincipal-contatoForm {
+        width: 100%;
+      }   
+     
+      .rodapePrincipal-patrocinadores-list {
+        margin: 0;
+        width: 100%;
+    
+    }  
+    
+    .rodapePrincipal-contatoForm-fieldset {
+        justify-content:center;
+    }
+
+}
