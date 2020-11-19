@@ -1,1 +1,1 @@
-# Flexbox
+Projeto que desenvolvi com o objetivo de aprimorar minhas habilidades com CSS e responsividade de Web Sites. Neste projeto, é possível ver lista de cursos divididos por linguagens de programação. Com esse projeto aprendi técnicas modernas para criar páginas responsivas que se adaptam a todos os tipos de dispisítivos, desde telas menores como smartphones até telas maiores como desktops. Caso queira saber mais sobre o projeto, clique no botão abaixo.
