@@ -2,7 +2,7 @@
    <body>
   <h1 align="center">Flexbox</h1>
 <h4 align="center">
-  <img src="./public/img/logos/flexbox.gif"  /><br>
+  <img src=".img/logos/Flexbox.gif"  /><br>
 </h4>
 
 <p align="center">
