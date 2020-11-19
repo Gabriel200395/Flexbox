@@ -1,6 +1,6 @@
 <html>
    <body>
-  <h1 align="center">Cadastro de Livro</h1>
+  <h1 align="center">Flexbox</h1>
 <h4 align="center">
   <img src="./public/img/logos/flexbox.gif"  /><br>
 </h4>
